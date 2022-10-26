@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: sticky;
+    width: 100vw;
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    background-color: #ECD9C5;
+    top: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+footer{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    padding: 10px;
+    background-color: #ECD9C5; 
+    bottom:0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ECD9C5;
+    
+}
+
+.hover:hover{
+    text-decoration: underline;
+}
+
+
+.float-left{
+    margin: 20px;
+    float: left;
+    padding-right: 1000px;
+    padding-left: 100px;
+}
+
+.float-right{
+    clear: both;
+    float: right;
+    margin-right: 150px;
+    padding-left: 55%;
+}
+
+
+
+.center-text{
+    margin-top: 80px;
+    margin-left: 45.7%;
+}
+
+#bold-text{
+    font-weight: bold;
+}
+
+
+
+.lvl1{
+    z-index: 1;
+}
+
+.lvl2{
+    z-index: 2;
+    
+}
+
+.logo{
+    position: relative;
+    bottom: 60px;
+}
+
+
+.horiliste{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+
+.mindrebilde{
+    width: 155px;
+    height: auto;
+    position: relative;
+    bottom: 15px;
+    padding-right: 20px;
+}
+
+.logo-center{
+    width: 350px;
+    height: auto;
+    position: relative;
+    bottom: 120px;
+    margin-left: 39%;
+
+}
+
+.forsidebilde{
+    position: sticky;
+    display: flex;
+    width: 100vw;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+
+
+.shop-now-box{
+    background-color: #0A3641;
+    color: #ECD9C5;
+    width: 175px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    bottom: 500px;
+    left: 43.2%;
+    z-index: 1;
+    border-radius: 35px; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.big-icon{
+    font-size: xx-large;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
