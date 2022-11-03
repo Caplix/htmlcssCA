@@ -32,16 +32,16 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ECD9C5
+    background-color: #ECD9C5;
+    margin-top: 127%;
 }
 
-main{
-    background-image: url(../bilder/forsidebilde2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 70vh;
+.frontpage{
+    height: 85vh;
+    position: absolute;
+    z-index: -2;
 }
+
 
 nav,
 #menu-checkbox{
@@ -94,8 +94,10 @@ nav{
     align-items: center;
     text-align: center;
     justify-content: center;
+    position: absolute;
     background-color: #0A3641;
     margin-left: 31%;
+    border:1px solid black;
     margin-top: 60px;
     color: #ECD9C5;
 }
