@@ -92,8 +92,13 @@ nav{
     display: inline-block;
     font-size: smaller;
     margin: 5px;
+
 }
 
+.textdec{
+    text-decoration: none;
+    color: black;
+}
 .textlogo{
     height: 30px;
     width: auto;
