@@ -31,6 +31,8 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #ECD9C5;
+    bottom: 0;
+    position: absolute;
 }
 
 nav,
@@ -75,58 +77,60 @@ nav{
     width: auto;
 }
 
-.forsidebilde{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
-    width: auto;
-}
-.kjøpknapp{
-    height: 40px;
-    width: 88%;
-    display: flex;
-    float: left;
-    text-align: center;
-    justify-content: center;
-    padding-left: 3px;
-    margin-left: 10px;
-    margin-top: 50px;
-    background-color: #ECD9C5;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-}
-
-.prisknapp{
-    height: 20px;
-    width: 40%;
-    display: flex;
-    float: left;
-    text-align: center;
-    justify-content: center;
-    padding-left: 3px;
-    margin-left: 30%;
-    background-color: #ECD9C5;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-}
-
-.genser-grid{
+.stat-grid{
     display: grid;
-    width: 350px;
-    height:850px;
-    margin: 10px;
-    gap: 30px;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 230px;
+    width: 315px;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 30px;
+}
+.horiliste{
+    display: inline-block;
+    margin-top: 5px;
 }
 
-.genser-grid div{
-    border-radius: 10px;
+.sizebox{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ECD9C5;
     background-color: #0A3641;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.addcart{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #0A3641;
+    color: #ECD9C5;
+}
+
+.info-grid{
+    margin-left: 35px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .textlogo{
@@ -134,4 +138,3 @@ nav{
     width: auto;
 
 }
-
