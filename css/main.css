@@ -71,6 +71,8 @@ nav{
     font-size: xx-large;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .logomindre{
@@ -106,7 +108,6 @@ nav{
 .textlogo{
     height: 30px;
     width: auto;
-
 }
 
 

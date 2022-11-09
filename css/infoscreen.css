@@ -134,6 +134,8 @@ section{
     font-size: xx-large;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .logomindre{

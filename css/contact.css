@@ -68,11 +68,12 @@ nav{
 #menu-checkbox:checked ~ nav{
     display: block;
 }
-
 .iconsize{
     font-size: xx-large;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .logomindre{
