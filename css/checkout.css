@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+header{
+    position: relative;
+    height: 100px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+header div{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ECD9C5
+}
+
+footer{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECD9C5;
+    bottom: 0;
+    position: absolute;
+}
+
+nav,
+#menu-checkbox{
+    display: none;
+}
+
+nav a{
+    display: block;
+    color:#0A3641;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    position: absolute;
+    background-color: #ECD9C5;
+    top: 90px;
+    border-radius: 0px 10px 10px 0px;
+}
+#menu-checkbox:checked ~ nav{
+    display: block;
+}
+
+.iconsize{
+    font-size: xx-large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logomindre{
+    height: 60px;
+    width: auto;
+}
+
+.textlogo{
+    height: 30px;
+    width: auto;
+
+}
