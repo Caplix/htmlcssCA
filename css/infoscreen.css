@@ -53,6 +53,70 @@ nav{
     top: 90px;
     border-radius: 0px 10px 10px 0px;
 }
+#menu-checkbox:checked ~ nav{
+    display: block;
+}
+
+section,
+#ctaknapp{
+    display:none;
+}
+
+section i{
+    display: block;
+    color:#0A3641;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+section{
+    position: absolute;
+    background-color: #ECD9C5;
+    top: 90px;
+}
+#ctaknapp:checked ~ section{
+    display: block;
+}
+
+.cta{
+    width: 100vw;
+    height: 70vh;
+    background-color: #0A3641;
+    left: -192.5px;
+    top: 10px;
+    position: absolute;
+}
+
+.ctagrid{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ctagrid2{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+    width: 280px;
+    gap: 10px;
+    margin-top: 300px;
+    margin-left: 10%;
+    place-items: center;
+    color: white;
+}
+
+.ctaskrift{
+    font-size:medium;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
 
 .mindre-jakker{
     display: flex;
@@ -60,10 +124,10 @@ nav{
     margin-left: 30px;
     height: 120px;
 }
-
-
-#menu-checkbox:checked ~ nav{
-    display: block;
+.jakker{
+    display: flex;
+    height: 200px;
+    margin-left: 21%;
 }
 
 .iconsize{
@@ -136,5 +200,6 @@ nav{
 .textlogo{
     height: 30px;
     width: auto;
-
 }
+
+
