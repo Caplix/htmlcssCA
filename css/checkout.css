@@ -74,3 +74,97 @@ nav{
     height: 30px;
     width: auto;    
 }
+
+.stat-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 170px;
+    width: 100vw;
+    margin-top: 30px;
+    gap: 5px;
+    background-color: #ecd9c58c;
+}
+.sizebox{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ECD9C5;
+    background-color: #0A3641;
+}
+
+.mindre-jakker{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 150px;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+}
+.horiliste{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.namegrid{
+    height: 200px;
+    width: 80vw;
+    display: grid;
+    margin-top: 10px;
+    margin-left: 30px;
+    gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.underline{
+    width: 60vw;
+    border-bottom: solid 1px #ECD9C5;
+}
+
+.checkout{
+    width: 130px;
+    height: 50px;
+    font-weight: 700;
+    font-size: larger;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #0A3641;
+    margin-left: 31%;
+    text-decoration: none;
+    color: #ECD9C5;
+}
+
+.confirmscreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-top: 10px;
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 37px;
+    border-radius: 10px;
+    background-color: #ECD9C5;
+    text-decoration: none;
+    color:#0A3641;
+}
+
+.Rdlogo{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

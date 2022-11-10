@@ -37,7 +37,7 @@ footer{
 }
 
 .frontpage{
-    height: 85vh;
+    height: 84.3vh;
     position: absolute;
     z-index: -2;
 }
@@ -95,9 +95,9 @@ nav{
     font-size: larger;
     display: flex;
     border-radius: 20px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     position: absolute;
     background-color: #0A3641;
     margin-left: 31%;

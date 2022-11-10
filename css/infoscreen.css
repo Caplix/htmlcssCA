@@ -94,7 +94,10 @@ section{
     margin-left: 10%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    font-size: x-large;
+    color: white;
 }
 
 .ctagrid2{
