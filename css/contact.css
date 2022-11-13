@@ -82,18 +82,25 @@ nav{
 }
 
 .overskrift{
-    margin-top: 10px;
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .lorem{
     margin: 30px;
+    margin-left: 40px;
 }
 .socials{
     display: inline-block;
     font-size: smaller;
     margin: 5px;
 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textdec{
@@ -103,5 +110,36 @@ nav{
 .textlogo{
     height: 30px;
     width: auto;
+}
 
+@media (min-width:492px){
+    footer{
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ECD9C5;
+        position: absolute;
+        bottom: 0;
+    }
+    .lorem{
+        margin: 30px;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width:716px){
+
+    footer{
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        position: absolute;
+        background-color: #ECD9C5;
+
+    } 
 }

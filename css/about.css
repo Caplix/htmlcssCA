@@ -31,6 +31,8 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #ECD9C5;
+    position: sticky;
+    bottom: 0;
 }
 
 nav,
@@ -69,8 +71,9 @@ nav{
 }
 
 .overskrift{
-    margin-top: 10px;
-    margin-left: 35%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .lorem{
@@ -80,7 +83,7 @@ nav{
 .socials{
     display: inline-block;
     font-size: smaller;
-    margin: 5px;
+    margin: 10px;
 }
 .textdec{
     text-decoration: none;
@@ -89,9 +92,55 @@ nav{
 .textlogo{
     height: 30px;
     width: auto;
-
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:492px){
+    footer{
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ECD9C5;
+        position: sticky;
+        bottom: 0;
+    }
+
+    .lorem{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:716px){
+
+    footer{
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        position: absolute;
+        background-color: #ECD9C5;
+
+    }
+
+    .lorem{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+    
+}
 
 
 

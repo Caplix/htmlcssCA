@@ -140,9 +140,13 @@ nav{
     justify-content: center;
     position: absolute;
     background-color: #0A3641;
-    margin-left: 31%;
     text-decoration: none;
     color: #ECD9C5;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
 }
 
 .confirmscreen{
@@ -155,7 +159,6 @@ nav{
     height: 250px;
     width: 300px;
     margin-top: 50px;
-    margin-left: 37px;
     border-radius: 10px;
     background-color: #ECD9C5;
     text-decoration: none;
@@ -167,4 +170,22 @@ nav{
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+@media (min-width:900px){
+    .confirmscreen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        padding-top: 10px;
+        height: 300px;
+        width: 450px;
+        margin-top: 50px;
+        border-radius: 10px;
+        background-color: #ECD9C5;
+        text-decoration: none;
+        color:#0A3641;
+    }
 }

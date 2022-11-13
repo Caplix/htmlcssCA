@@ -33,15 +33,18 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #ECD9C5;
-    margin-top: 127%;
+    margin-top: 100vh;
 }
 
 .frontpage{
-    height: 84.3vh;
-    position: absolute;
-    z-index: -2;
-}
+    background-image: url(../bilder/logo/forsidebilde2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+
+}
 
 nav,
 #menu-checkbox{
@@ -62,11 +65,9 @@ nav{
     border-radius: 0px 10px 10px 0px;
 }
 
-
 #menu-checkbox:checked ~ nav{
     display: block;
 }
-
 .iconsize{
     font-size: xx-large;
     font-weight: 700;
@@ -80,12 +81,10 @@ nav{
     width: auto;
 }
 
-.forsidebilde{
+.test{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 85vh;
-    width: auto;
+    align-items: center;
 }
 
 .shopnow{
@@ -100,8 +99,7 @@ nav{
     justify-content: center;
     position: absolute;
     background-color: #0A3641;
-    margin-left: 31%;
-    margin-top: 60px;
+    margin-top: 50%;
     color: #ECD9C5;
 }
 
@@ -109,5 +107,8 @@ nav{
     height: 30px;
     width: auto;
 }
+
+
+
 
 

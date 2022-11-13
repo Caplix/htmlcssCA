@@ -14,6 +14,10 @@ header{
 
 }
 
+img {
+    margin: 0;
+}
+
 header div{
     display: flex;
     height: 100px;
@@ -79,19 +83,21 @@ section{
 }
 
 .cta{
+    display: flex;
+    justify-content: center;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: #0A3641;
-    left: -192.5px;
     top: 10px;
+    margin-left: 285px;
     position: absolute;
 }
+
 
 .ctagrid{
     position: absolute;
     height: 300px;
     width: 280px;
-    margin-left: 10%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -108,7 +114,6 @@ section{
     width: 280px;
     gap: 10px;
     margin-top: 300px;
-    margin-left: 10%;
     place-items: center;
     color: white;
 }
@@ -129,8 +134,10 @@ section{
 }
 .jakker{
     display: flex;
+    justify-content: center;
+    margin-left: 20%;
     height: 200px;
-    margin-left: 21%;
+
 }
 
 .iconsize{
@@ -178,6 +185,11 @@ section{
     justify-content: space-between;
 }
 
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .addcart{
     height: 30px;
     width: 100px;
@@ -206,5 +218,6 @@ section{
     height: 30px;
     width: auto;
 }
+
 
 
